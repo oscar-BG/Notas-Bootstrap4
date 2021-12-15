@@ -1,0 +1,83 @@
+.contenedor-1{
+    /* Oordena los elementos unos despues de otros */
+    display: flex;
+    /* Ajusta el tamaño de contenedor y alinea los elementos hacia arriba */
+    align-items: flex-start;
+}
+.contenedor-2{
+    display: flex;
+    /* Ajusta el tamaño del contenedor y alinea los elementos hacia abajo */
+    align-items: flex-end;
+}
+.contenedor-3{
+    display: flex;
+    /* Ajusta el tamaño del contenedor y alinea los elementos hacia el centro */
+    align-items: center;
+}
+.contenedor-4{
+    display: flex;
+    /* Ajusta el tamaño del contenedor al mismo tamaño que los demas */
+    align-items: stretch;
+}
+.contenedor-5{
+    display: flex;
+    /* Alinea los elementos a la izquierda */
+    justify-content: flex-start;
+}
+.contenedor-6{
+    display: flex;
+    /* Alinea los elementos a la derecha */
+    justify-content: flex-end;
+}
+.contenedor-7{
+    display: flex;
+    /* Alinea los elementos a la derecha */
+    justify-content: center;
+}
+.contenedor-8{
+    display: flex;
+    /* Alinea los elementos a la derecha */
+    justify-content: space-between;
+}
+.contenedor-9{
+    display: flex;
+    /* Alinea los elementos a la derecha */
+    justify-content: space-around;
+}
+.wrap-1{
+    display: flex;
+    /* Si los elementos no acaben en el ancho de la pantalla hace un salto de linea */
+    flex-wrap: wrap;
+}
+.wrap-2{
+    display: flex;
+    /* ajusta los elementos en el ancho de la pantalla */
+    flex-wrap: nowrap;
+}
+.wrap-3{
+    display: flex;
+    /* ajusta los elementos en el ancho de la pantalla */
+    flex-wrap: wrap-reverse;
+}
+.contenedor div{
+    border: 1px #ccc solid;
+    padding: 12px;
+    background-color: #FAFAFA;
+}
+.size div{
+    width: 25%;
+}
+.caja-1{
+    /* toma el numero de columnas indicados */
+    flex: 2;
+    /* Ordena los elementos de acurdo a lo que le indiques */
+    order: 3;
+}
+.caja-2{
+    flex: 4;
+    order: 1;
+}
+.caja-3{
+    flex: 2;
+    order: 2;
+}
