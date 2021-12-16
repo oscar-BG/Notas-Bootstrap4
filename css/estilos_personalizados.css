@@ -1,0 +1,7 @@
+.btn-primary{
+    background: coral;
+    border-color: coral;
+}
+.btn-primary:hover{
+    background: rgb(214, 150, 127);
+}
