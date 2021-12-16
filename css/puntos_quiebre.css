@@ -1,0 +1,30 @@
+/* Dispositivos pequeños landscapes telefonos */
+@media(min-width: 576px){
+    body{
+        background: yellow;
+    }
+}
+/* Dispositivos medianos (tablets) */
+@media(min-width: 768px){
+    body{
+        background: blue;
+    }
+}
+/* Dispositivos grandes (computadores, portatiles) */
+@media(min-width: 992px){
+    body{
+        background: red;
+    }
+}
+/* Dispositivos extragrande (computadores grandes resoluciones)*/
+@media(min-width: 1200px){
+    body{
+        background: green;
+    }
+}
+/* Dispositivos extra-pequeños */
+@media(max-width: 575px){
+    body{
+        background: black;
+    }
+}
