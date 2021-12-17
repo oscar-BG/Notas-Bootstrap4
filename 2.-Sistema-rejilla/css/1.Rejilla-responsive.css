@@ -1,0 +1,24 @@
+.cabezera{
+    border: 1px solid black;
+}
+.menu{
+    list-style: none;   
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+}
+.barra{
+    width: 500px;
+    height: 50px;
+    background-color: grey;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.imagen{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    margin-top: 20px;
+}
