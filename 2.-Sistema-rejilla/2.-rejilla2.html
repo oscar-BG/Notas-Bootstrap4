@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ancho igual -->
+    <!-- La clase col ajusta el tamaño que los elementos para que se muestran en todo el ancho de la pantalla -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+        </div>
+        <br><br><br>
+        <!-- Multifila -->
+        <div class="row">
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="w-100"></div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+            <div class="col" style="border:1px solid #000; background: #a59d9d;">Ancho igual</div>
+        </div>
+        <br><br><br>
+        <!-- ancho igual menos el md-->
+        <div class="row">
+            <div class="col-md" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+            <div class="col-md" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+            <div class="col-md" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+        </div>
+        <br><br><br>
+        <!-- Auto layout-->
+        <div class="row">
+            <div class="col" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+            <div class="col-6" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+            <div class="col-3" style="border:1px solid #000; background: #a59d9d;"> Ancho igual menos sm</div>
+        </div>
+
+        <br><br><br>
+        <!-- Ordenamiento-->
+        <div class="row">
+            <div class="col order-3" style="border:1px solid #000; background: #a59d9d;"> Primer div</div>
+            <div class="col order-2" style="border:1px solid #000; background: #a59d9d;"> segundo div</div>
+            <div class="col order-1" style="border:1px solid #000; background: #a59d9d;"> Tercer div</div>
+        </div>
+
+        <br><br><br>
+        <!-- Desde pantalla-->
+        <div class="row">
+            <div class="col-sm-6" style="border:1px solid #000; background: #a59d9d;"> Primer div</div>
+            <div class="col-sm-4" style="border:1px solid #000; background: #a59d9d;"> segundo div</div>
+            <div class="col-sm-2" style="border:1px solid #000; background: #a59d9d;"> Tercer div</div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.4.1.slim.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
