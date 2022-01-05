@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta obligatoria para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Estilos bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Bootstrao en local</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <form>
+                <!-- Campos texto -->
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input class="form-control" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <!-- email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="" class="form-control" placeholder="example@gmail.com">
+                    <small class="form-text text-muted">Este email es valido</small>
+                </div>
+                <!-- Campo de texto small -->
+                <div class="form-group">
+                    <label for="nombre">Nombre small</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <!-- Campo de texto large -->
+                <div class="form-group">
+                    <label for="nombre">Nombre small</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <!-- Campo de password -->
+                <div class="form-group">
+                    <label for="">Contraseña</label>
+                    <input class="form-control" type="password" name="" id="" placeholder="Ingresa tu contraseña">
+                </div>
+                <!-- Campo tipo select -->
+                <div class="form-group">
+                    <label for="genero">Genero</label>
+                    <select id="genero" class="form-control">
+                        <option value="1">Femenino</option>
+                        <option value="2">Maculino</option>
+                    </select>
+                </div>
+                <!-- Campo textare -->
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                </div>
+                <!-- Campo subida de archivos -->
+                <div class="form-group">
+                    <label for="archivo">Subir Archivo</label>
+                    <input type="file" name="" id="" class="form-control-file">
+                    <small class="form-text text-muted">Maximo 2mb</small>
+                </div>
+                <!-- Campo subida de archivos personalizados-->
+                <div class="custom-file">
+                    <input type="file" name="" id="" class="custom-file-input">
+                    <label class="custom-file-label" for="archivo">Subir Archivo</label>
+                </div>
+                <!-- Campo tipo rango -->
+                <div class="form-group">
+                    <label for="membresia">Membrecia oro</label>
+                    <input type="range" name="" id="" min="2" max="10" value="3" class="custom-range">
+                </div>
+                <!-- Boton -->
+                <br>
+                <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+
+            </form>
+            <br><br>
+            <!-- Formulario en línea -->
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Ingresa usuario">
+                <input type="password" name="" id="" class="form-control" placeholder="Ingresa contraseña">
+                <div class="form-check">
+                    <label for="" class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        Recordar contraseña
+                    </label>
+                </div>
+                <button class="btn btn-success" type="submit">Ingresar</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <!-- Cargar librerias en el siguiente orden -->
+    <!-- 1.- Jquery -->
+    <script src="../js/jquery-3.4.1.slim.js"></script>
+    <!-- 2.- Popper -->
+    <script src="../js/popper.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
