@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta obligatoria para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Estilos bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Bootstrao en local</title>
+</head>
+<body>
+    <!-- Arriba -->
+    <div class="container mt-5">
+        <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip en la parte de arriba">
+            Botón Tooltip Arriba
+        </button>
+    </div>
+
+    <!-- abajo -->
+    <div class="container mt-5">
+        <button class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="Tooltip en la parte de abajo">
+            Botón Tooltip Abajo
+        </button>
+    </div>
+
+    <!-- Izquierda -->
+    <div class="container mt-5">
+        <button class="btn btn-success" data-toggle="tooltip" data-placement="left" title="Tooltip en la parte izquerda">
+            Botón Tooltip Izquierda
+        </button>
+    </div>
+
+    <!-- Derecha -->
+    <div class="container mt-5">
+        <button class="btn btn-info" data-toggle="tooltip" data-placement="right" title="Tooltip en la parte derecha">
+            Botón Tooltip derecha
+        </button>
+    </div>
+    
+    <!-- Cargar librerias en el siguiente orden -->
+    <!-- 1.- Jquery -->
+    <script src="../js/jquery-3.4.1.slim.js"></script>
+    <!-- 2.- Popper -->
+    <script src="../js/popper.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script>
+        // Iniciar Tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+</body>
+</html>
