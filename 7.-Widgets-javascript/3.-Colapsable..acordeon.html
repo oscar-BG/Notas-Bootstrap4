@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta obligatoria para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Estilos bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Bootstrao en local</title>
+</head>
+<body>
+    
+    <!-- Boton colapsable -->
+    <div class="container mt-5">
+        <button class="btn btn-info d-block mb-4" data-toggle="collapse" data-target="#colapsable-1">
+            Ver mas
+        </button>
+
+        <div class="collapse mb-5" id="colapsable-1">
+            <div class="card">
+                <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. }
+                    Nihil odio consectetur voluptatum obcaecati magnam! Beatae 
+                    consectetur, voluptatibus fuga dolores consequuntur qui blanditiis tenetur nisi, 
+                    error, accusantium doloremque excepturi officiis earum?
+                </div>
+            </div>
+        </div>
+
+        <!-- Acordeon -->
+        <div id="acordeon">
+            <div class="card">
+                <div class="card-header">
+                    <h4>
+                        <a href="#colapse1" data-parent="#acordeon" data-toggle="collapse"> Titulo 1</a>
+                    </h4>
+                </div>
+
+                <div id="colapse1" class="collapse show">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. }
+                        Nihil odio consectetur voluptatum obcaecati magnam! Beatae 
+                        consectetur, voluptatibus fuga dolores consequuntur qui blanditiis tenetur nisi, 
+                        error, accusantium doloremque excepturi officiis earum?
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="card">
+                <div class="card-header">
+                    <h4>
+                        <a href="#colapse2" data-parent="#acordeon" data-toggle="collapse"> Titulo 2</a>
+                    </h4>
+                </div>
+
+                <div id="colapse2" class="collapse">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. }
+                        Nihil odio consectetur voluptatum obcaecati magnam! Beatae 
+                        consectetur, voluptatibus fuga dolores consequuntur qui blanditiis tenetur nisi, 
+                        error, accusantium doloremque excepturi officiis earum?
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>
+                        <a href="#colapse3" data-parent="#acordeon" data-toggle="collapse"> Titulo 2</a>
+                    </h4>
+                </div>
+
+                <div id="colapse3" class="collapse">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. }
+                        Nihil odio consectetur voluptatum obcaecati magnam! Beatae 
+                        consectetur, voluptatibus fuga dolores consequuntur qui blanditiis tenetur nisi, 
+                        error, accusantium doloremque excepturi officiis earum?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Cargar librerias en el siguiente orden -->
+    <!-- 1.- Jquery -->
+    <script src="../js/jquery-3.4.1.slim.js"></script>
+    <!-- 2.- Popper -->
+    <script src="../js/popper.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
