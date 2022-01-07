@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Etiqueta obligatoria para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Estilos bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Bootstrao en local</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <!-- Popovers -->
+        <button class="btn btn-secondary" data-toggle="popover" data-placement="top" data-content="lorem lorem lorel"> Popover tipo Toggle</button>
+        <button class="btn btn-warning" data-toggle="popover" data-placement="left" data-content="lorem lorem lorel"> Popover tipo Toggle</button>
+        <button class="btn btn-info" data-toggle="popover" data-placement="right" data-content="lorem lorem lorel"> Popover tipo Toggle</button>
+        <button class="btn btn-success" data-toggle="popover" data-placement="bottom" data-content="lorem lorem lorel"> Popover tipo Toggle</button>
+        
+        <!-- Popover que se cierra (Dismissible) -->
+        <br><br>
+        <button class="btn btn-success" data-toggle="popover" data-placement="bottom" data-content="lorem lorem lorel" data-trigger="focus"> Popover dismissible</button>
+    </div>
+
+    
+    <!-- Cargar librerias en el siguiente orden -->
+    <!-- 1.- Jquery -->
+    <script src="../js/jquery-3.4.1.slim.js"></script>
+    <!-- 2.- Popper -->
+    <script src="../js/popper.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script>
+        //Iniciar init el popover
+        $('[data-toggle="popover"]').popover();
+    </script>
+</body>
+</html>
